@@ -101,7 +101,7 @@ webroot of your nginx installation. In this example it is
       gzip_vary on;
       gzip_comp_level 4;
       gzip_min_length 256;
-      gzip_proxied expired no-cache no-store private no_last_modified no_etag auth;
+      gzip_proxied expired no-cache no-store private no_last_modified no_etag;
       gzip_types application/atom+xml application/javascript application/json application/ld+json application/manifest+json application/rss+xml application/vnd.geo+json application/vnd.ms-fontobject application/x-font-ttf application/x-web-app-manifest+json application/xhtml+xml application/xml font/opentype image/bmp image/svg+xml image/x-icon text/cache-manifest text/css text/plain text/vcard text/vnd.rim.location.xloc text/vtt text/x-component text/x-cross-domain-policy;
 
       # Uncomment if your server is build with the ngx_pagespeed module
@@ -245,7 +245,7 @@ your nginx installation.
           gzip_vary on;
           gzip_comp_level 4;
           gzip_min_length 256;
-          gzip_proxied expired no-cache no-store private no_last_modified no_etag auth;
+          gzip_proxied expired no-cache no-store private no_last_modified no_etag;
           gzip_types application/atom+xml application/javascript application/json application/ld+json application/manifest+json application/rss+xml application/vnd.geo+json application/vnd.ms-fontobject application/x-font-ttf application/x-web-app-manifest+json application/xhtml+xml application/xml font/opentype image/bmp image/svg+xml image/x-icon text/cache-manifest text/css text/plain text/vcard text/vnd.rim.location.xloc text/vtt text/x-component text/x-cross-domain-policy;
 
           # Uncomment if your server is build with the ngx_pagespeed module
